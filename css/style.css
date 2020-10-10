@@ -1,0 +1,28 @@
+/*Float*/
+.image1 {
+	float: left;
+	height: 100px;
+}
+.test1 {
+	float: right;
+	width: 500px;
+}
+.clear {
+	clear: both;
+}
+.wraper::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+/*gamyopi xazi*/
+.p-test::after {
+	content: '';
+	width: 3px;
+	height: 30px;
+	background-color: green;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+
