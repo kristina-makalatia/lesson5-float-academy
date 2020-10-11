@@ -26,3 +26,12 @@
 }
 
 
+.bg-image {
+	background-image: url('../img/image.jpg');
+	height: 500px;
+	width: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom right; 
+	/*background-attachment:fixed;*/
+}
